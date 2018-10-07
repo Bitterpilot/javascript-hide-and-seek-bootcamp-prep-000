@@ -19,7 +19,8 @@ function increaseRankBy(n) {
       let oldValue = parseInt(children[i].innerHTML);
       let newValue = oldValue + n;
       // console.log(`oldValue: ${oldValue} \nnewValue: ${newValue}`);
-      console.log(typeof children);
+      // console.log(typeof children);
+      children.splice(i, 1, newValue)
     }
   });
 }
