@@ -20,7 +20,8 @@ function increaseRankBy(n) {
       let newValue = oldValue + n;
       // console.log(`oldValue: ${oldValue} \nnewValue: ${newValue}`);
       // console.log(typeof children);
-      children[oldValue] = newValue;
+      children = newValue;
     }
+  return 
   });
 }
