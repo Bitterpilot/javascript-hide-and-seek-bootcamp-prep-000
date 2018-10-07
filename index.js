@@ -22,6 +22,5 @@ function increaseRankBy(n) {
       // console.log(typeof children);
       children = newValue;
     }
-  return 
   });
 }
